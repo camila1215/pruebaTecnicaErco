@@ -29,14 +29,19 @@ node crearBd_tabla.js
 + Se esta usando Nodemon para ver los cambios en tiempo real.
 
 # Ejecución del proyecto  
-+ Antes de iniciarlo, verificar que los pasos descritos en la seccion del frontEnd y el backend esten completos
++ Antes de iniciarlo, verificar que los pasos descritos en la seccion del frontEnd y el backend esten completos y que los datos esten cargados en la tabla.
 + Inicializar el proyecto por primera vez, ejecutar este comando en el lado del client` 
 npm start
 `
-+ Inicializar le proyecto, ejecutar este comando en el lado del server`
++ Inicializar el proyecto, ejecutar este comando en el lado del server`
 npm run dev
 `
-
+## Uso
++ La vista de inicio permite visualizar un listado de proyectos organizados en una tabla, se muestran las 4 columnas indicadas y se habilitaron 4 botones para interactuar con la información de cada proyecto, organizados de la siguiente forma:
+++ *Boton Agregar*: Ubicado en la esquina superior izquierda, para agregar un item presiona el boton y diligencia la información del formulario
+++ *Boton Consultar*: Ubicado en la tabla, al presionar permite visualizar la información completa del item
+++ *Boton Editar*: Ubicado en la tabla, permite la edicion de la informacion, permite visualizarla y editar los campos con excepcion del campo *system_id* el cual es de solo lectura
+++ *Boton Eliminar*: Ubicado en la tabla, permite eliminar un item, al precionar se abre un modal donde el usuario puede confirmar o cancelar la eliminación
 
 ## Enlaces importantes
 + Laragon `https://laragon.org/download/index.html`
