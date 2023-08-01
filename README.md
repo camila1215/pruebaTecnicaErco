@@ -7,7 +7,7 @@
 * [x]  Herramienta para la creación de entornos de desarrollo, en mi caso utilice laragon
 * [x]  Disponibilidad en los puertos 3000 y 3001.
 
-### Ejecución del proyecto
+### Inicio
 + Descargar el proyecto
 + Iniciar los servicios del entorno de desarrollo
 + Guardar el proyecto en la carpeta www de laragon o en su defecto realizar la configuración para que apunte a la carpeta del proyecto
